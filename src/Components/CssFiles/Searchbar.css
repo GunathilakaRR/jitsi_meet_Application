@@ -7,9 +7,28 @@
 
 .srchbox{
     position: absolute;
-    top: 15rem;
+    top: 20rem;
     left: 50%;
     display: flex;
     justify-content: center;
     transform: translateX(-50%);
 }
+
+.btntxt{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 700px){
+    .srchbar{
+        height: 30px;
+        width: 200px;
+    }
+    .btncss{
+        height:30px;
+    }
+    .btntxt{
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+}
+    

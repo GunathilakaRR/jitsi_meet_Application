@@ -18,3 +18,13 @@
     height: 40px;
     margin: 5px;
 }
+
+@media screen and (max-width: 700px){
+    .textArea{
+        width: 400px;
+    }
+    .twobtn{
+        width: 300px;
+        margin-top: 10px;
+    }
+}

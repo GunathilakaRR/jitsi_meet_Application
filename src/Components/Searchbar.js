@@ -34,8 +34,8 @@ const Searchbar = () => {
               }}
             />
           </div>
-          <button id="search-button" type="submit" class="btn btn-primary">
-            Start meeting
+          <button id="search-button" type="submit" class="btn btn-primary btncss">
+            <h3 className="btntxt">Start meeting</h3>
           </button>
         </div>
       </form>
