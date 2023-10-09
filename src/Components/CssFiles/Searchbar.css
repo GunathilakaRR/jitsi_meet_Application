@@ -1,0 +1,15 @@
+
+
+.srchbar{
+    height: 50px;
+    width: 300px;
+}
+
+.srchbox{
+    position: absolute;
+    top: 15rem;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translateX(-50%);
+}

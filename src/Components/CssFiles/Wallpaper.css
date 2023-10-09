@@ -1,0 +1,26 @@
+wallpaper-card{
+    position: relative;
+}
+
+figcaption h1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+figcaption h4{
+    font-size: 15px;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    color: black;
+}
+
+.wall{
+    background: rgba(0,0,0,0.55);
+}
+
