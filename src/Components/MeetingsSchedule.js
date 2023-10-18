@@ -14,11 +14,11 @@ function MeetingsSchedule() {
 
   return (
     <div className="container">
-      <h1>Notes List</h1>
+      <h3 className="todo-list">Set important dates, events, and to-dos to keep <br></br> your schedule on track </h3>
       <div className="top">
         <input
           type="text"
-          placeholder="Add to do"
+          placeholder="Never forget a thing "
           value={text}
           onChange={(e) => setText(e.target.value)}
         />

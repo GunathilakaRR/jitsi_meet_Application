@@ -1,0 +1,28 @@
+.cardSize{
+    width: 1000px;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.feature-section{
+    margin-top: 100px;
+    
+}
+
+.card{
+    border: none;
+    transition: all 0.3s;
+  
+    
+}
+
+.card-img-top{
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card:hover{
+    transform: scale(1.10);
+}

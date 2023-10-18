@@ -1,8 +1,8 @@
-import React from 'react'
+
 var jsonwebtoken = require('jsonwebtoken');
 var uuid = require('uuid-random');
 
-function jwt() {
+
   
     const generate = (privateKey, { id, name, email, avatar, appId, kid }) => {
         const now = new Date()
@@ -35,7 +35,7 @@ function jwt() {
       /**
        * Generate a new JWT.
        */
-      const token = generate('my private key', {
+      const token = generate(process.env.PRIVATE_KEY, {
           id: uuid(),
           name: "rusirugunathilaka118",
           email: "rusirugunathilaka118@gmail.com",
@@ -47,6 +47,3 @@ function jwt() {
       console.log(token);
 
 
-}
-
-export default jwt
