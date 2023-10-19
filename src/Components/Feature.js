@@ -8,36 +8,40 @@ function Feature() {
   return (
     <div className="feature-section">
       <h1>Check out All Features</h1>
-      <div class="card-group cardSize">
-        <div class="card">
-          <img class="card-img-top" src={f1} alt="Card image cap" />
-          <div class="card-body">
+
+      <div className="card-container">
+      
+        <div className="card">
+          <img className="card-image" src={f1} alt="Card image cap" />
+          <div className="card-title">
             <h5 class="card-title">Audio & Video Calling</h5>
-            <p class="card-text">
+            <p className="card-content">
               Connect with friends and loved ones with crystal-clear clarity, no
               matter where they are in the world. Stay close, even when you're
               miles apart.
             </p>
           </div>
         </div>
-        <div class="card ">
-          <img class="card-img-top" src={f2} alt="Card image cap" />
-          <div class="card-body">
+
+        <div className="card">
+          <img className="card-image" src={f2} alt="Card image cap" />
+          <div className="card-title">
             <h5 class="card-title">Screen Sharing</h5>
-            <p class="card-text">
+            <p className="card-content">
               Share your ideas, documents, and visuals in real-time with the
               click of a button. Make communication more engaging and productive
               with our screen sharing feature.
             </p>
           </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src={f3} alt="Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">Instant Chat</h5>
-            <p class="card-text">
+
+        <div className="card">
+          <img className="card-image" src={f3} alt="Card image cap" />
+          <div className="card-title">
+            <h5 class="card-title">Instant Messaging</h5>
+            <p className="card-content">
               Instantly connect, chat, and share ideas with friends and
-              colleagues, no matter where you are.{" "}
+              colleagues, no matter where you are.
             </p>
           </div>
         </div>

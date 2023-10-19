@@ -5,6 +5,7 @@ import MeetingsSchedule from './Components/MeetingsSchedule';
 import Wallpaper from './Components/Wallpaper';
 import Meeting from './Components/Meeting';
 import Feature from './Components/Feature';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       
       <MeetingsSchedule/>
       <Feature/>
+      <Footer/>
 
     </div>
   );

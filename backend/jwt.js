@@ -1,6 +1,7 @@
 
 var jsonwebtoken = require('jsonwebtoken');
 var uuid = require('uuid-random');
+require('dotenv').config();
 
 
   

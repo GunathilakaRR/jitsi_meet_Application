@@ -1,23 +1,32 @@
-.cardSize{
-    width: 1000px;
-    justify-items: center;
+.card-container{
+    /* width: 1000px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: auto;
+    background-color: #419197;
+    padding: 30px 0;
     margin-bottom: 100px;
 }
 
 .feature-section{
     margin-top: 100px;
     
+   
 }
+
 
 .card{
+    width: 300px;
+    overflow: hidden;
     border: none;
     transition: all 0.3s;
-  
-    
+    background-color: #78D6C6;
+    margin: 20px;
+    padding: 10px;
 }
 
-.card-img-top{
+.card-image{
     width: 100px;
     margin: auto;
     margin-top: 20px;
@@ -26,3 +35,22 @@
 .card:hover{
     transform: scale(1.11);
 }
+
+/* @media (max-width:1024px){
+    .card{
+        width: 100%;
+    }
+}
+
+@media (max-width:900px){
+    .card{
+        width: 90%;
+    }
+}
+
+@media (max-width:500px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    }
+} */
