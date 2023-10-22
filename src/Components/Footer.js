@@ -22,6 +22,8 @@ function Footer() {
               <p>Contact</p>
               <p>Our Team</p>
             </div>
+
+            
           </div>
         </div>
       </footer>

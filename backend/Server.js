@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes/TodoRoute')
+const authRouter = require("./routes/auth")
 const cors = require('cors')
 
 require('dotenv').config();
@@ -20,5 +21,6 @@ mongoose.connect(process.env.MONGODB_URL)
 })
 
 app.use(routes)
+app.use("/api/auth", authRouter)
 
 app.listen(PORT, ()=> console.log(`listening on port ${PORT}`));

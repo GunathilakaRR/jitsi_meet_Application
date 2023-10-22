@@ -2,8 +2,9 @@
 var jsonwebtoken = require('jsonwebtoken');
 var uuid = require('uuid-random');
 require('dotenv').config();
+const fs = require('fs')
 
-
+const privateKey = fs.readFileSync('private-key.pem', 'utf-8');
   
     const generate = (privateKey, { id, name, email, avatar, appId, kid }) => {
         const now = new Date()
@@ -36,15 +37,17 @@ require('dotenv').config();
       /**
        * Generate a new JWT.
        */
-      const token = generate(process.env.PRIVATE_KEY, {
+      const token = generate(privateKey, {
           id: uuid(),
           name: "rusirugunathilaka118",
           email: "rusirugunathilaka118@gmail.com",
           avatar: "my avatar url",
           appId: "vpaas-magic-cookie-39f5ab9db36441c186e4b2b4dc89bbda", // Your AppID ( previously tenant )
-          kid: "vpaas-magic-cookie-39f5ab9db36441c186e4b2b4dc89bbda/cf4c5f"
+          kid: "vpaas-magic-cookie-39f5ab9db36441c186e4b2b4dc89bbda/d31231"
       });
       
       console.log(token);
+      module.exports = {token, generate};
+
 
 
