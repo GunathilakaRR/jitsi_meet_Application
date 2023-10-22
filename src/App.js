@@ -1,11 +1,12 @@
 
 import './App.css';
-import { Route, Routes, Navigate } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import MeetingsSchedule from './Components/MeetingsSchedule';
 import Wallpaper from './Components/Wallpaper';
 import Meeting from './Components/Meeting';
 import Feature from './Components/Feature';
 import Footer from './Components/Footer';
+
 
 
 function App() {

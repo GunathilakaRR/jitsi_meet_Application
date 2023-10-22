@@ -3,10 +3,12 @@ var jsonwebtoken = require('jsonwebtoken');
 var uuid = require('uuid-random');
 require('dotenv').config();
 const fs = require('fs')
+require('dotenv').config();
 
 const privateKey = fs.readFileSync('private-key.pem', 'utf-8');
+const genID = uuid();
   
-    const generate = (privateKey, { id, name, email, avatar, appId, kid }) => {
+    const generate = ({ id, name, email, avatar, appId, kid }) => {
         const now = new Date()
         const jwt = jsonwebtoken.sign({
           aud: 'jitsi',
@@ -37,17 +39,19 @@ const privateKey = fs.readFileSync('private-key.pem', 'utf-8');
       /**
        * Generate a new JWT.
        */
-      const token = generate(privateKey, {
-          id: uuid(),
-          name: "rusirugunathilaka118",
-          email: "rusirugunathilaka118@gmail.com",
+      
+
+      const token = generate({
+          id: genID,
+          name: process.env.NAME,
+          email: process.env.EMAIL,
           avatar: "my avatar url",
-          appId: "vpaas-magic-cookie-39f5ab9db36441c186e4b2b4dc89bbda", // Your AppID ( previously tenant )
-          kid: "vpaas-magic-cookie-39f5ab9db36441c186e4b2b4dc89bbda/d31231"
+          appId: process.env.APPID, 
+          kid: process.env.KID
       });
       
-      console.log(token);
-      module.exports = {token, generate};
+      //console.log(token);
+      module.exports = token,genID;
 
 
 

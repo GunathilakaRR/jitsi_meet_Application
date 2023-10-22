@@ -1,36 +1,38 @@
 
 
-.srchbar{
-    height: 50px;
-    width: 300px;
+#search-button{
+    background-color: #005B41;
+    border: none;
 }
 
 .srchbox{
     position: absolute;
-    /* top: 20rem; */
     bottom: 15em;
     left: 50%;
     display: flex;
     justify-content: center;
     transform: translateX(-50%);
+    
 }
 
 .btntxt{
+    font-family: 'Montserrat', sans-serif ;
     font-size: 20px;
 }
 
-@media screen and (max-width: 700px){
-    .srchbar{
-        height: 30px;
-        width: 200px;
-        
-    }
+@media screen and (max-width: 400px){
+    
     .btncss{
         height:30px;
     }
     .btntxt{
         font-size: 18px;
-        margin-bottom: 3px;
+        /* margin-bottom: 3px; */
+        margin: auto;
+    }
+    #search-button{
+        margin: 20px;
+        padding: 25px;
     }
 }
     

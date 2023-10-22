@@ -1,6 +1,7 @@
 
 
 .container{
+  font-family: 'Montserrat', sans-serif ;
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: #78D6C6;
@@ -15,11 +16,6 @@
     
 }
 
-  /* h4{
-    margin-top: 1rem;
-    text-align: center;
-    color: red;
-  } */
 
   .todo-list{
     color: black;

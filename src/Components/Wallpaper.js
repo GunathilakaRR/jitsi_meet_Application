@@ -4,6 +4,7 @@ import wallpaper from "../Assets/images/w1.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Searchbar from "./Searchbar";
 
+
 function Wallpaper() {
   return (
     <container>

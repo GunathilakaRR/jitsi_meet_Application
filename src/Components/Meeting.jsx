@@ -2,25 +2,14 @@
 
 import React, { useEffect } from 'react'
 import { useState } from 'react';
-import { JitsiMeeting, JaaSMeeting } from '@jitsi/react-sdk';
+import {  JaaSMeeting } from '@jitsi/react-sdk';
 import SpinnerView from './SpinnerView'; 
 import getToken from '../services/authService';
-import axios from 'axios'
+
 
 
 
 const Meeting = () => {
-
-  // useEffect(()=>{
-  //   const getToken = async ()=>{
-  //     const response = await fetch(getToken);
-  //     const responseData = await response.json();
-
-  //     console.log(responseData)
-  //   }
-  // }, [])
-
-
 
   const [t, setT] = useState("");
 
@@ -32,10 +21,8 @@ const Meeting = () => {
     setToken();
   },[])
   
-  console.log("jwt token: ", t);
-
-
-
+  console.log(t);
+  
 
   const setIframeHeight = (iframeRef) => {
     if (iframeRef) {
