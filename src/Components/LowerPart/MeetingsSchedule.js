@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./CssFiles/MeetingsSchedule.css";
+import "../CssFiles/MeetingsSchedule.css";
 import AddToDo from "./AddToDo";
-import { addToDo, getAllToDo, deleteToDo } from "../utils/HandleApi";
+import { addToDo, getAllToDo, deleteToDo } from "../../utils/HandleApi";
 
 function MeetingsSchedule() {
 

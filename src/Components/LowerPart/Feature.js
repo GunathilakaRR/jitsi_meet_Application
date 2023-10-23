@@ -1,8 +1,8 @@
 import React from "react";
-import "./CssFiles/Feature.css";
-import f1 from "../Assets/images/f1.png";
-import f2 from "../Assets/images/f2.png";
-import f3 from "../Assets/images/f3.png";
+import "../CssFiles/Feature.css";
+import f1 from "../../Assets/images/f1.png";
+import f2 from "../../Assets/images/f2.png";
+import f3 from "../../Assets/images/f3.png";
 
 function Feature() {
   return (

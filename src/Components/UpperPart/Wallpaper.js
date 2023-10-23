@@ -1,6 +1,6 @@
 import React from "react";
-import "./CssFiles/Wallpaper.css";
-import wallpaper from "../Assets/images/w1.jpg";
+import "../CssFiles/Wallpaper.css";
+import wallpaper from "../../Assets/images/w1.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Searchbar from "./Searchbar";
 

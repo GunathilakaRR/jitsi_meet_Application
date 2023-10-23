@@ -1,5 +1,5 @@
 
-import './CssFiles/Searchbar.css'
+import '../CssFiles/Searchbar.css'
 import { useNavigate } from "react-router-dom";
 
 

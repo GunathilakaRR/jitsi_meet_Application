@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 import { useState } from 'react';
 import {  JaaSMeeting } from '@jitsi/react-sdk';
 import SpinnerView from './SpinnerView'; 
-import getToken from '../services/authService';
+import getToken from '../../services/authService';
 
 
 

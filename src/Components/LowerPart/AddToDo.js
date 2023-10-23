@@ -1,6 +1,6 @@
 import React from 'react'
 import {AiFillDelete} from "react-icons/ai"
-import './CssFiles/AddToDo.css'
+import '../CssFiles/AddToDo.css'
 
 function AddToDo({text, deleteToDo}) {
   return (
