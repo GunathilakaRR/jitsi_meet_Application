@@ -31,13 +31,16 @@ const Meeting = () => {
   };
 
 
+  // {t.data}
+
   return (
     <div>
-      
+
+
       <JaaSMeeting
       appId="vpaas-magic-cookie-39f5ab9db36441c186e4b2b4dc89bbda"
       roomName="YourRoomName"
-      jwt={t.data}
+      jwt= {t.data}
       configOverwrite={{
         disableThirdPartyRequests: true,
         disableLocalVideoFlip: true,

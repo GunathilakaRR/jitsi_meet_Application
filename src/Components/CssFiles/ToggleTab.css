@@ -1,0 +1,51 @@
+.container{
+    font-family: 'Montserrat', sans-serif ;
+      margin-top: 10px;
+      /* margin-bottom: 100px; */
+      background-color: #78D6C6;
+      padding: 40px;
+      border-radius: 15px;
+    }
+
+.sceduler-btn{
+    margin-top: 100px;
+}
+
+button.btn.btn1,
+button.btn.btn2{
+    
+    display: inline;
+    color: black;
+    border: none;
+    background-color: #78D6C6;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+
+
+button.btn:hover{
+    background-color: #0EA293;
+}
+
+
+
+h4.text{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif ;
+}
+
+
+.content{
+    display: none;
+}
+
+.show-content{
+    display: block;
+}
+
+
+

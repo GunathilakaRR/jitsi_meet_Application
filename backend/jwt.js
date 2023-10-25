@@ -30,7 +30,7 @@ const genID = uuid();
           iss: 'chat',
           room: '*',
           sub: appId,
-          exp: Math.round(now.setHours(now.getHours() + 3) / 1000),
+          exp: Math.round(now.setMinutes(now.getMinutes() + 10) / 1000),
           nbf: (Math.round((new Date).getTime() / 1000) - 10)
         }, privateKey, { algorithm: 'RS256', header: { kid } })
         return jwt;
@@ -50,8 +50,8 @@ const genID = uuid();
           kid: process.env.KID
       });
       
-      //console.log(token);
-      module.exports = token,genID;
+      console.log(token);
+      module.exports = token;
 
 
 

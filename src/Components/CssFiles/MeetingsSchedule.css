@@ -1,13 +1,6 @@
 
 
-.container{
-  font-family: 'Montserrat', sans-serif ;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    background-color: #78D6C6;
-    padding: 40px;
-    border-radius: 15px;
-  }
+
   
 .list{
     width: 600px;
@@ -53,6 +46,9 @@
       align-content: center;
       margin: auto;
       
+  }
+  .calendar{
+    width: 200px;
   }
 
   }

@@ -38,42 +38,6 @@ function MeetingsSchedule() {
 
 
 }
-//   const [todos, setTodos] = useState([]);
-//   const [task, setTask] = useState("");
 
-//   const addTodo = () => {
-//     if (task) {
-//       setTodos([...todos, task]);
-//       setTask("");
-//     }
-//   };
-
-//   const deleteTodo = (index) => {
-//     const updatedTodos = todos.filter((_, i) => i !== index);
-//     setTodos(updatedTodos);
-//   };
-
-//   return (
-//     <div className="textArea">
-//       <h1 className="notesHeader">Add Your Notes Here</h1>
-//       <input
-//       className="addNote"
-//         type="text"
-//         value={task}
-//         onChange={(e) => setTask(e.target.value)}
-//         placeholder="Add a new task"
-//       />
-//       <button className="addbtn" onClick={addTodo}>Add</button>
-//       <ul >
-//         {todos.map((todo, index) => (
-//           <li className="list" key={index}>
-//             {todo}
-//             <button className="dltbtn" onClick={() => deleteTodo(index)}>Delete</button>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
 
 export default MeetingsSchedule;
