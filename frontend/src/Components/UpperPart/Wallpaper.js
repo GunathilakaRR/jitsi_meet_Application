@@ -7,7 +7,7 @@ import Searchbar from "./Searchbar";
 
 function Wallpaper() {
   return (
-    <container>
+    <div className="container-fluid" style={{padding: 0}}>
       <div className="wallpaper-card ">
         <div className="position-relative ">
           <img
@@ -22,7 +22,7 @@ function Wallpaper() {
           </figcaption>
         </div>
       </div>
-    </container>
+    </div>
   );
 }
 

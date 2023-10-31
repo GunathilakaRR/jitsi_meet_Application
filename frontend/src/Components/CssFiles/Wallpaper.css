@@ -1,15 +1,19 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap'); */
 
-
-wallpaper-card{
-    position: fixed;
+.container-fluid{
+    padding-left: 0px;
 }
 
+/* wallpaper-card{
+    position: fixed;
+} */
+
 figcaption h1{
+    min-height: 200px;
     font-family: 'Montserrat', sans-serif ;
     position: absolute;
     padding: 10px;
-    top: 25%;
+    top: 15%;
     left: 50%;
     text-align: center;
     transform: translateX(-50%);
@@ -39,54 +43,37 @@ figcaption h4{
     height: 600px;
 }
 
-
-
-@media screen and (max-width: 600px){
+@media screen and (min-width: 400px){
     figcaption h1{
-        font-size: 2.5rem;
-        top: 10%;
+        color: black;
+        font-size: 3rem;
+        top: 7%;
         
     }
     figcaption h4{
         font-size: 15px;
-        bottom: 8rem;
+        bottom: 2rem;
     }
     .position-relative img{
         background-size: cover;
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (min-width: 800px){
     figcaption h1{
-        font-size: 3.5rem;
-        top: 15%;
+        color: black;
+        font-size: 3rem;
+        top: 7rem;
         
     }
     figcaption h4{
-        font-size: 1.2rem;
-        bottom: 8rem;
+        font-size: 18px;
+        bottom: 5rem;
     }
     .position-relative img{
         background-size: cover;
     }
 }
-
-@media screen and (max-width: 1500px){
-    figcaption h1{
-        font-size: 3.5rem;
-        top: 15%;
-        
-    }
-    figcaption h4{
-        font-size: 1.2rem;
-        border-top: 6px;
-        bottom: 8rem;
-    }
-    .position-relative img{
-        background-size: cover;
-    }
-}
-
 
 
 

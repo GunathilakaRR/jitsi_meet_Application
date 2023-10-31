@@ -13,8 +13,9 @@ function MeetingsSchedule() {
   }, []);
 
   return (
+    <div className="container-fluid" > 
     <div className="container">
-      <h3 className="todo-list">Set important dates, events, and to-dos to keep <br></br> your schedule on track </h3>
+      <h3 className="todo-list">Set important notes, events, and to-dos to keep <br></br> your schedule on track </h3>
       <div className="top">
         <input
           type="text"
@@ -33,6 +34,7 @@ function MeetingsSchedule() {
           deleteToDo={()=>deleteToDo(item._id, setToDo)}/>
         ))}
       </div>
+    </div>
     </div>
   );
 
